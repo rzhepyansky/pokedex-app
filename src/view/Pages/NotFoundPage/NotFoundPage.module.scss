@@ -1,0 +1,29 @@
+.wrapper {
+
+  & img {
+    width: 350px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
+  color: #fbfbfb;
+
+  & div {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+}
+
+
+.error {
+  font-size: 90px;
+}
+
+.message {
+  font-size: 30px;
+}

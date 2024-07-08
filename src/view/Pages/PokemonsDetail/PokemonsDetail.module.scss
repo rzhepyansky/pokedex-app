@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+.pokemonDetails {
+  width: 700px;
+  height: 400px;
+  background: #fbfbfb;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 2px 5px 50px #aa3a38;
+  display: flex;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Aclonica';
+  src: url('../../../../public/fonts/Aclonica/Aclonica-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btnBack {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  position: absolute;
+  height: 35px;
+  width: 115px;
+  left: 200px;
+  top: 7px;
+  gap: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  background: #ef5350;
+  border-radius: 15px;
+  & img {
+    width: 20px;
+    height: 20px;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    scale: 0.95;
+  }
+
+}
+
+.image {
+  & img {
+    height: 340px;
+  }
+}
+
+.description {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-top: 86px;
+
+  &__name {
+    font-family: 'Aclonica';
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  &__id {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Helvetica';
+  }
+  & div {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Helvetica';
+  }
+
+  & span {
+    font-weight: bold;
+  }
+}
+

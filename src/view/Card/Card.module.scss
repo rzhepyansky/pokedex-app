@@ -1,0 +1,42 @@
+.cardItem {
+  border-radius: 10px;
+  width: 350px;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  height: 110px;
+  background: #fbfbfb;
+  box-shadow: 2px 5px 5px #aa3a38;
+}
+
+.catchButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 18px;
+  & img {
+    width: 70px;
+  }
+  &:active {
+    scale: 0.95;
+  }
+}
+
+.cardInfo {
+  padding-top: 25px;
+  & h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.title {
+  cursor: pointer;
+  &:hover {
+    color: #ef5350;
+  }
+  &:active {
+    scale: 0.95;
+  }
+}
